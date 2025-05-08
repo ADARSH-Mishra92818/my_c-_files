@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,a=1;
+    cout<<"Enter the value of n:"<<endl;
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        a=a*i;
+    }
+    cout<<"Factorial of number"<<endl;
+    cout<<n<<endl;
+    cout<<"is"<<endl;
+    cout<<a<<endl;
+    return 0;
+}
